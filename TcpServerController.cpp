@@ -8,10 +8,10 @@ TcpServerController::~TcpServerController(){
 
 };
 
-void TcpServerController::start(){
+void TcpServerController::Start(){
 
 };
 
-void TcpServerController::stop(){
+void TcpServerController::Stop(){
 
 };

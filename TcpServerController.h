@@ -15,8 +15,8 @@ class TcpServerController {
         
         TcpServerController(std::string ip_addr, u_int16_t port_no, std::string name);
         ~TcpServerController();
-        void start();
-        void stop();
+        void Start();
+        void Stop();
 
     private:
         TcpNewConnectionAcceptor *tcp_new_conn_acc;
